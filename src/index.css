@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    margin: 0px;
+    background-color: var(--color-bg);
+    font-family: 'Scoutie Sans';
+}
+
+:root {
+    /* ========================================
+     COLORS
+  ======================================== */
+
+    /* Background */
+    --color-bg: #f7f7fb;
+    --color-primary: #5b4ee5;
+    --color-primary-gradient: linear-gradient(135deg,
+            #4f46c8 0%,
+            #6757e8 100%);
+    --radius-md: 0.75rem;
+    --shadow-md:
+        0 4px 12px rgba(15, 23, 42, 0.06);
+}
